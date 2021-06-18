@@ -1,0 +1,321 @@
+/*-==-=-=-Common CSS-=--=-=-=-=-*/
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+p{
+	font-size: 18px;
+}
+
+/*-==-=-=-Header CSS-=--=-=-=-=-*/
+
+.agency-header-area{
+	padding: 20px 0;
+	background: url(images/fullbanner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 160vh;
+}
+.logo-menu{
+	position: relative;
+}
+.logo{
+	float: left;
+}
+.logo img{}
+.menu-icon{
+	color: #fff;
+	display: none;
+}
+.menu{
+	float: right;
+}
+.menu ul {
+	display: flex;
+	justify-content: center;
+}
+.menu ul li{
+	list-style: none;
+	padding: 0 10px;
+}
+.menu ul li a{
+	color: #4f4f4f;
+	font-size: 18px;
+	font-weight: 700;
+	transition: .3s;
+	padding: 7px 10px;
+}
+.menu ul li a:hover{
+	border: 2px solid #4f4f4f;
+	border-radius: 20px;
+}
+
+.lorem-ask{
+	
+	width: 60%;
+	margin: 0 auto;
+	
+	position: absolute;
+	top: 180px;
+	left: 250px;
+	text-align: center;
+
+}
+.lorem-ask h1{
+	font-weight: 800;
+	font-family: '';
+	font-size: 48px;
+}
+.lorem-ask p{
+	font-size: 18px;
+}
+.lorem-ask .ask-button{
+	margin: 0 auto;
+}
+.lorem-ask .ask-button button{
+	margin-top: 60px;
+	background: linear-gradient(to right, #4c007c, #b70084);
+	border-radius: 25px;
+	padding: 10px 50px;
+	color: #fff;
+}
+
+.mouse{
+	position: absolute;
+	top: 800px;
+	left: 550px;
+	margin-bottom: 100px;
+
+}
+.mouse h6{
+	color: #fff;
+	font-size: 20px;
+}
+.mouse img{
+	margin-left: 30px;
+	margin-bottom: 10px;
+	width: 35px;
+	height: 45px;
+
+}
+
+/*-==-=-=-Banner CSS-=--=-=-=-=-*/
+
+.banner2{
+	background: url();
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+}
+.banner2-details{}
+.banner2-price{
+	color: #fff;
+}
+.banner2-price h1{
+	font-size: 48px;
+}
+.banner2-price p{
+	font-size: 18px;
+}
+.banner2-details .banner2-button{}
+.banner2-details .banner2-button button{
+	color: #fff;
+	background: linear-gradient(to right, #4c007c, #b70084);
+	padding: 10px 40px;
+	border-radius: 25px;
+	margin-top: 20px;
+}
+
+.banner2-price img {
+	width: 105%;
+	height: auto;
+	margin-top: -100px;
+}
+.banner2-price h1 {
+	font-size: 48px;
+	margin-top: -300px;
+	margin-left: 40px;
+}
+.banner2-price p {
+	font-size: 18px;
+	margin-left: 40px;
+}
+.banner2-details .banner2-button {
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-==-=-=-service CSS-=--=-=-=-=-*/
+
+.agency-service-area{
+	padding: 100px 0;
+	background: #fff;
+}
+.service-heading{}
+.service-heading h1{
+	font-size: 48px;
+	margin-bottom: 100px;
+}
+.service-items{}
+.service-item-icon{}
+.service-item-icon img{
+	height: 60px;
+}
+.service-item-text{}
+.service-item-text h3{
+	font-size: 30px;
+}
+.service-item-text p{
+	font-size: 18px;
+	text-align: ;
+}
+.service-item-button{}
+.service-item-button button{
+	margin: 0 auto;
+	background: linear-gradient(to right, #4c007c, #b70084);
+	color: #fff;
+	border-radius: 25px;
+	padding: 10px 40px;
+	margin-top: 100px;
+}
+.service-item-button button:hover{
+	color: #fff;
+}
+
+/*-==-=-=-Neptune CSS-=--=-=-=-=-*/
+
+
+.agency-neptune-area{}
+
+.neptune-single{
+	width: 33%;
+	position: relative;
+}
+.neptune-img{
+	padding: ;
+}
+.neptune-img img{}
+.neptune-text{
+	color: #fff;
+	width: 90%;
+	position: absolute;
+	top: 20%;
+	left: 8%;
+}
+.neptune-text {
+	color: #fff;
+	width: 90%;
+	position: absolute;
+	top: 10%;
+	left: 83%;
+}
+.neptune-text {
+	color: #fff;
+	width: 154%;
+	position: absolute;
+	top: 10%;
+	left: 83%;
+}
+.neptune-text h2 {
+	font-size: 26px;
+	font-weight: 700;
+}
+.neptune-text p{
+	font-size: 16px;
+	text-align:center ;
+}
+
+.neptune-text button {
+	background: linear-gradient(to right, #4c007c, #b70084);
+	color: #fff;
+	border-radius: 25px;
+	padding: 10px 40px;
+	margin-top: 20px;
+	margin-left: 23px;
+}
+.neptune-text button:hover{
+	color: #fff;
+}
+
+/*-==-=-=-Neptune CSS-=--=-=-=-=-*/
+
+.agency-about-area{
+	padding: 100px;
+	background: url(images/banner3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+.about-details{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+.about-details h1{
+	font-size: 48px;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+.about-details p{
+	font-size: 18px;
+	color: #6a6a6a;
+}
+
+.agency-members{
+	margin-top: 100px;
+}
+.agency-member{}
+.agency-member-img{}
+.agency-member-img img{
+	width: 150px;
+	height: 150px;
+	margin-left: 50px;
+}
+.agency-member-info{
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+}
+.agency-member-info h2{
+	font-size: 24px;
+}
+.agency-member-info p{
+	font-size: 18px;
+}
+
+/*-==-=-=-Neptune CSS-=--=-=-=-=-*/
+
+.agency-footer-area{
+	padding: 7px 0;
+	background: #111111;
+	color: #fff;
+}
+.footer-text{}
+.footer-text p{}
+
+
+
+/*--=-=-=- Owl -=--==-*/
+
+.owl-carousel .owl-item img {
+	display: block;
+	width: 310%;
+}
